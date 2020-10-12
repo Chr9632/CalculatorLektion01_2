@@ -32,6 +32,9 @@ namespace Calculator.Test.Unit
         [TestCase(11, 11, 22)]
         [TestCase(41, 35, 76)]
         [TestCase(4, 17, 21)]
+        [TestCase(10, 50, 60)]
+        [TestCase(12, 112, 124)]
+        [TestCase(19, 44, 63)]
         public void Add_a_plus_b(double a, double b, double result)
         {
             var act = _uut.Add(a, b);
