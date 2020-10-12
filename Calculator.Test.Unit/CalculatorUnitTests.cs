@@ -53,7 +53,8 @@ namespace Calculator.Test.Unit
 
         [TestCase(4,4,16)]
         [TestCase(13, 11, 143)]
-        [TestCase(9,7,63)]
+        [TestCase(9, 7, 63)]
+        [TestCase(9, 9, 81)]
         public void Multiply_a_and_b(double a, double b, double result)
         {
             var act = _uut.Multiply(a, b);
