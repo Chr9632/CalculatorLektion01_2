@@ -45,6 +45,8 @@ namespace Calculator.Test.Unit
         [TestCase(11, 42, -31)]
         [TestCase(5, 5, 0)]
         [TestCase(67, 50, 17)]
+        [TestCase(3, 12, -9)]
+        [TestCase(225, 37, 188)]
         public void Subtract_a_minus_b(double a, double b, double result)
         {
             var act = _uut.Subtract(a, b);
